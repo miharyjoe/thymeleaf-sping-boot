@@ -1,6 +1,4 @@
-h1{
-    font-weight: bold;
-}
-body{
-    background-color: aqua;
+#profile{
+    max-width: 100px;
+    max-height: 100px;
 }

@@ -29,10 +29,9 @@ public class EmployeeEntity {
     @Column(unique = true, nullable = false)
     private String matricule;
 
-    @Column(nullable = true)
-    @Lob
+    @Column(nullable = true, columnDefinition = "Text")
     private String image;
-/*
+
     public String getMatricule() {
         return "EMPL" + matricule;
     }
@@ -41,5 +40,4 @@ public class EmployeeEntity {
         this.matricule = matricule.substring(4);
     }
 
- */
 }
